@@ -3,7 +3,7 @@ print('Введите первое число')
 firstnum=int(input())
 print('Введите второе число')
 secondnum=int(input())
-print('Введите знак арифметической операции (+, -, *, /,)')
+print('Введите знак арифметической операции (+, -, *, /)')
 sign=str(input())
 if sign == "+":
     result=firstnum+secondnum
